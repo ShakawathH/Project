@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Shak</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html"><img src="/image/Logo.jpg" alt="Logo"></a>
+
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutme.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Projects
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="work.html">Work</a>
+                                <a class="dropdown-item" href="education.html">Education</a>
+                            </div>
+
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </nav>
+        <div class="container-fluid p-5 bg-primary text-white text-center">
+            <h1>Welcome to Car Shak!</h1>
+            <p>My First Bootstrap Page</p>
+        </div>
+    <div class="col-sm-4  text-center">
+        <!--<h2>h2 Bootstrap heading (24px) This is me making an edit</h2>
+        <h3>h2 Bootstrap heading (18px) This is also me making another edit</h3>-->
+    </div>
+</div>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/image/camaro.jpg" alt="Camaro" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="/image/rolls.jpg" alt="Jeep" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="/image/FordGT.jpeg" alt="Ford GT" class="d-block" style="width:100%">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Cards -->
+    <div class="container mt-3">
+        <h2 style="text-align: center">What's Available</h2>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:400px">
+                    <img class="card-img-left" src="image/sudan.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Sudans</h4>
+                        <p class="card-text">Hele Hiud eohohg Nulla id turpis et orci sollicitudin ultricies.
+                            Suspendisse lacinia elit massa. Sed et nibh consectetur, pulvinar lacus et, vulputate metus.
+                            Fusce tincidunt ante nulla, vel suscipit est ornare nec.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:400px">
+                    <img class="card    -img-middle" src="image/sport.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Sports</h4>
+                        <p class="card-text">Uheh hjhueb gkegy Nulla id turpis et orci sollicitudin ultricies.
+                            Suspendisse lacinia elit massa. Sed et nibh consectetur, pulvinar lacus et, vulputate metus.
+                            Fusce tincidunt ante nulla, vel suscipit est ornare nec. Nullam aliquam augue ex, et dignissim tortor ornare in.
+                            Vivamus dictum suscipit magna, non suscipit nibh rutrum a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:400px">
+                    <img class="card-img-right" src="image/luxury.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Luxury</h4>
+                        <p class="card-text">Nulla id turpis et orci sollicitudin ultricies.
+                            Suspendisse lacinia elit massa. Sed et nibh consectetur, pulvinar lacus et, vulputate metus.
+                            Fusce tincidunt ante nulla, vel suscipit est ornare nec. Nullam aliquam augue ex, et dignissim tortor ornare in.
+                            Vivamus dictum suscipit magna, non suscipit nibh rutrum a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Footer -->
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy;Copyright Shakawath Hussain, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
+
+<!-- DEVELOPER: Shakawath Hussain, IS117-003, Spring 2023 ->
